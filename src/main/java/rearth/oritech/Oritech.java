@@ -43,7 +43,7 @@ public class Oritech implements ModInitializer {
     public void onInitialize() {
         
         // this shouldn't be needed, yet here we are
-        CommonStorageLib.init();
+        // CommonStorageLib.init();
         
         LOGGER.info("Begin Oritech initialization");
         
