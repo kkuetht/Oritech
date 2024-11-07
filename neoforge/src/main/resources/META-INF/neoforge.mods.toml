@@ -1,15 +1,15 @@
 modLoader = "javafml"
 loaderVersion = "[4,)"
-#issueTrackerURL = ""
-license = "Insert License Here"
+issueTrackerURL = "https://github.com/Rearth/Oritech/issues"
+license = "CC0-1.0"
 
 [[mods]]
 modId = "oritech"
 version = "${version}"
 displayName = "Oritech"
-authors = "Me!"
+authors = "Me! - Rearth"
 description = '''
-This is an example description! Tell everyone what your mod is about!
+Simple tech mod.
 '''
 #logoFile = ""
 
@@ -31,6 +31,30 @@ side = "BOTH"
 modId = "architectury"
 type = "required"
 versionRange = "[13.0.2,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.oritech]]
+modId = "athena"
+type = "required"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.oritech]]
+modId = "fabric_api"
+type = "required"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.oritech]]
+modId = "owo"
+type = "required"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.oritech]]
+modId = "geckolib"
+type = "required"
 ordering = "AFTER"
 side = "BOTH"
 

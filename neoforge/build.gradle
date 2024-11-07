@@ -68,10 +68,10 @@ dependencies {
 
     // CSL
     // because CSL currently loads in energized power in a wrong version
-    modRuntimeOnly files('common-storage-lib-neoforge-1.21-0.0.7.jar')
-    modRuntimeOnly files('common-storage-lib-data-neoforge-1.21-0.0.7.jar')
-    modRuntimeOnly files('common-storage-lib-resources-neoforge-1.21-0.0.7.jar')
-    modRuntimeOnly files('common-storage-lib-lookup-neoforge-1.21-0.0.7.jar')
+    modRuntimeOnly files('common-storage-lib-neoforge-1.21-0.0.8.jar')
+    modRuntimeOnly files('common-storage-lib-data-neoforge-1.21-0.0.8.jar')
+    modRuntimeOnly files('common-storage-lib-resources-neoforge-1.21-0.0.8.jar')
+    modRuntimeOnly files('common-storage-lib-lookup-neoforge-1.21-0.0.8.jar')
 
     // jade
     modImplementation "curse.maven:jade-324717:5846105"

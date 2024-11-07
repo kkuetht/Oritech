@@ -63,15 +63,19 @@ public final class Oritech {
     
     public static void runAllRegistries() {
         
+        LOGGER.info("Running Oritech registrations...");
+        
         // fluids need to be first
+        LOGGER.debug("Registering fluids");
         EVENT_MAP.get(RegistryKeys.FLUID.getValue()).forEach(Runnable::run);
         
         for (var type : EVENT_MAP.keySet()) {
             if (type.equals(RegistryKeys.FLUID.getValue()) || type.equals(RegistryKeys.ITEM_GROUP.getValue())) continue;
-            System.out.println(type);
+            LOGGER.debug("Registering type");
             EVENT_MAP.get(type).forEach(Runnable::run);
         }
         
+        LOGGER.debug("Registering item groups");
         EVENT_MAP.get(RegistryKeys.ITEM_GROUP.getValue()).forEach(Runnable::run);
     }
     

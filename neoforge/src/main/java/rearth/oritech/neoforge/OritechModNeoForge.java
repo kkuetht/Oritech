@@ -13,22 +13,16 @@ import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.neoforged.neoforge.registries.RegisterEvent;
 import rearth.oritech.Oritech;
-import sample.oritech.ExampleMod;
 
-@Mod(ExampleMod.MOD_ID)
-public final class ExampleModNeoForge {
-    public ExampleModNeoForge(IEventBus eventBus) {
+@Mod(Oritech.MOD_ID)
+public final class OritechModNeoForge {
+    public OritechModNeoForge(IEventBus eventBus) {
         // Run our common setup.
         
-        // NeoForge.EVENT_BUS.register(new EventHandler());
         eventBus.register(new EventHandler());
-        // EventHandlerImpl.registerServer();
         EventHandler.COMPONENT_REGISTRAR.register(eventBus);
         
-        ExampleMod.init();
-        System.out.println("oritech init");
         Oritech.initialize();
-        System.out.println("init done");
         
     }
     
@@ -58,7 +52,7 @@ public final class ExampleModNeoForge {
             var id = event.getRegistryKey().getValue();
             
             if (Oritech.EVENT_MAP.containsKey(id)) {
-                System.out.println(event.getRegistryKey());
+                Oritech.LOGGER.debug(event.getRegistryKey().toString());
                 Oritech.EVENT_MAP.get(id).forEach(Runnable::run);
             }
             
