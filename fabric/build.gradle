@@ -64,7 +64,7 @@ dependencies {
 
     // CSL
     // include modApi("earth.terrarium.common_storage_lib:common-storage-lib-fabric-1.21:0.0.5")
-    modImplementation files('common-storage-lib-fabric-1.21-0.0.8.jar')
+    modImplementation files('common-storage-lib-fabric-1.21-0.0.99.jar')
     modImplementation files('common-storage-lib-data-fabric-1.21-0.0.9.jar')
     modImplementation files('common-storage-lib-resources-fabric-1.21-0.0.8.jar')
     modImplementation files('common-storage-lib-lookup-fabric-1.21-0.0.8.jar')
@@ -77,6 +77,9 @@ dependencies {
     // EMI
     modRuntimeOnly "dev.emi:emi-fabric:1.1.12+1.21"
 
+    // patchouli
+    modImplementation "vazkii.patchouli:Patchouli:1.21-87-FABRIC"
+
 }
 
 processResources {
@@ -84,6 +87,12 @@ processResources {
 
     filesMatching('fabric.mod.json') {
         expand version: project.version
+    }
+}
+
+processResources {
+    from(rootProject.file("common/src/main/resources")) {
+        include("data/*/patchouli_books/")
     }
 }
 

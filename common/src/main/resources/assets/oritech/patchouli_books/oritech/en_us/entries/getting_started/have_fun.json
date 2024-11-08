@@ -1,0 +1,11 @@
+{
+  "name": "Have Fun",
+  "icon": "minecraft:firework_rocket",
+  "category": "oritech:getting_started",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "There are many more things to try, and $(l:oritech:logistics)logistics pipelines$() to build.$(br2)Go explore the rest of the manual, and then start experimenting and building."
+    }
+  ]
+}

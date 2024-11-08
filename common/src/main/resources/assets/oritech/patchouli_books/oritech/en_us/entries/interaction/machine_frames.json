@@ -1,0 +1,26 @@
+{
+  "name": "Machine Frames",
+  "icon": "oritech:machine_frame_block",
+  "category": "oritech:interaction",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The $(l:oritech:interaction/block_placer)block placer$(), $(l:oritech:interaction/block_destroyer)block destroyer$(), and $(l:oritech:interaction/fertilizer)fertilizer$() all operate on a gantry that is built with machine frames. The machine frame designates the area the machines operate in. It needs to be rectangular and empty inside."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The machines always target the blocks **below** the frame. Any number of machines can operate on the same machine frame. To do so, simply place multiple machines on the frame. The machines always iterate through all blocks in the frame area."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "All machines that operate on machine frames can use most addons. The speed addon increases both the movement and operation speed."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "oritech:machine_speed_addon"
+      },
+      "text": "The speed addon increases both the movement and operation speed."
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Making Steel (and Other Alloys)",
+  "icon": "oritech:steel_ingot",
+  "category": "oritech:getting_started",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "You can make $(l:oritech:resources/steel)steel$(), $(l:oritech:resources/electrum)electrum$(), and $(l:oritech:resources/adamant)adamant$() in a crafting table, but it wastes resources to do it that way.$(br2)As soon as you can, you will want to build a $(l:oritech:processing/pulverizer)pulverizer$() and $(l:oritech:processing/foundry)foundry$() so that you can make alloys more efficiently."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "oritech:crafting/alloy/steel",
+      "title": "Steel Alloy Crafting"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "oritech:crafting/alloy/electrum",
+      "title": "Electrum Alloy Crafting"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Block Placer",
+  "icon": "oritech:placer_block",
+  "category": "oritech:interaction",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Yes, the block placer places blocks from its inventory on the layer below the $(l:oritech:interaction:machine_frames)machine frame$(). The block placer can also be used to plant seeds in farmland, or saplings."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "oritech:placer_block"
+      },
+      "text": "The block placer places blocks from its inventory on the layer below the $(l:oritech:interaction:machine_frames)machine frame$()."
+    }
+  ]
+}

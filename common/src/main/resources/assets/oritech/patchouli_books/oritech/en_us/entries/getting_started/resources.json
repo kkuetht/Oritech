@@ -1,0 +1,19 @@
+{
+  "name": "Gather Resources",
+  "icon": "minecraft:diamond_pickaxe",
+  "category": "oritech:getting_started",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "You need some resources to start.$(br2)Look for an $(l:oritech:resources/ore_boulder)ore boulder$() to start, or go mining. You'll need copper, iron, coal, and $(l:oritech:resources/nickel)nickel$().$(br2)Gold, redstone, and a couple of diamonds soon will also be of great use, so go ahead and get them as well."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "oritech:textures/book/ore_boulder.png"
+      ],
+      "title": "Ore Boulder",
+      "border": "true"
+    }
+  ]
+}

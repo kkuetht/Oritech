@@ -1,0 +1,27 @@
+{
+  "name": "Bedrock Extractor",
+  "icon": "oritech:deep_drill_block",
+  "category": "oritech:interaction",
+  "pages": [
+    {
+      "type": "patchouli:image",
+      "image": "oritech:textures/book/deep_drill.png",
+      "text": "The bedrock extractor can mine ores from below bedrock at places where $(l:oritech:resources/resource_nodes)ore resource nodes$() are found."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The $(l:oritech:processing/multiblocks)multiblock$() machine can only operate when placed on resource nodes, and must be powered using $(l:oritech:interaction/enderic_laser)enderic lasers$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "When in operation, the bedrock extractor will mine the ores directly below it (the whole 3x3 area). Each operation will randomly select one of the blocks below. Not all blocks have to be ore nodes."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "oritech:deep_drill_block"
+      },
+      "text": "The bedrock extractor can mine ores from below bedrock at places where $(l:oritech:resources/resource_nodes)ore resource nodes$() are found."
+    }
+  ]
+}

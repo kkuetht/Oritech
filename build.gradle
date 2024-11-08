@@ -53,6 +53,11 @@ subprojects {
             name = 'CurseMaven'
             url "https://beta.cursemaven.com"
         }
+
+        maven { // patchouli (guide book)
+            name = 'patchouli'
+            url "https://maven.blamejared.com"
+        }
     }
 
     dependencies {

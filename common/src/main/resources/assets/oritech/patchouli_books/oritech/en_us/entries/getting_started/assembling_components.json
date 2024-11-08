@@ -1,0 +1,23 @@
+{
+  "name": "Assembling Components",
+  "icon": "oritech:assembler_block",
+  "category": "oritech:getting_started",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "To start assembling components, you need an assembler. It allows you to craft items like wires, coils, and motors more efficiently, and can craft items you cannot make by hand."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "oritech:crafting/assembler",
+      "title": "Assembler Crafting",
+      "text": "Build an $(l:oritech:processing/assembler)assembler$()."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "oritech:crafting/centrifugealt",
+      "title": "Centrifuge Crafting",
+      "text": "Next, you'll want to build a centrifuge. This machine is essential for processing resources into components needed for further progress. Build a $(l:oritech:processing/centrifuge)centrifuge$()."
+    }
+  ]
+}

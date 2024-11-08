@@ -1,0 +1,32 @@
+{
+  "name": "Block Destroyer",
+  "icon": "oritech:destroyer_block",
+  "category": "oritech:interaction",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The block destroyer is used to, as you guessed it, destroy blocks. It's a $(l:oritech:processing/multiblocks)multi-block$() that operates on a $(l:oritech:interaction:machine_frames)machine frame$(), and targets the block layer directly below the frame."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "oritech:destroyer_block"
+      },
+      "text": "The time and energy it takes to break a block is based on the block's hardness. The block destroyer tries to destroy all blocks below. To allow farming usage, the crop filter addon can be installed. This will cause the block destroyer to skip all non-finished crops."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "oritech:crop_filter_addon"
+      },
+      "text": "To allow farming usage, the crop filter addon can be installed."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "oritech:quarry_addon"
+      },
+      "text": "By adding quarry addons, the block destroyer can also be used as a quarry. Each quarry addon multiplies the range by 8. This means one addon gives it 8 range, 2 addons give 64 range, and 3 addons give 512 range."
+    }
+  ]
+}

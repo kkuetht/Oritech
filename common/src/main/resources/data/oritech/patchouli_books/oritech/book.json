@@ -1,0 +1,9 @@
+{
+  "name": "oritech.manual",
+  "landing_text": "welcome.text",
+  "creative_tab": "minecraft:tools_and_utilities",
+  "use_resource_pack": true,
+  "show_progress": false,
+  "open_sound": "minecraft:block.amethyst_block.resonate",
+  "flip_sound ": "minecraft:block.comparator.click"
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Your First Generator",
+  "icon": "oritech:basic_generator_block",
+  "category": "oritech:getting_started",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Build a $(l:oritech:processing/generators)basic generator$(). This won't generate nearly enough power, but it's enough to get you started."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "oritech:crafting/basicgen",
+      "title": "Basic Generator Crafting",
+      "text": "When you need more power, build more generators or start looking at the other $(l:oritech:processing/generators)generators$() that Oritech provides."
+    }
+  ]
+}

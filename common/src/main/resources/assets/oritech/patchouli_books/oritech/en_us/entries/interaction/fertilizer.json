@@ -1,0 +1,22 @@
+{
+  "name": "Fertilizer",
+  "icon": "oritech:fertilizer_block",
+  "category": "oritech:interaction",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "oritech:fertilizer_block"
+      },
+      "text": "Used to fertilize crops below the connected $(l:oritech:interaction:machine_frames)machine frame$(). Requires water and energy to operate."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The effect on the blocks below is similar to bonemeal being applied, albeit less strong."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Also hydrates the farmland below."
+    }
+  ]
+}

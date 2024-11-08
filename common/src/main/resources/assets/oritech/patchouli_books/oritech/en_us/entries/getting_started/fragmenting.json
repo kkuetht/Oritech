@@ -1,0 +1,15 @@
+{
+  "name": "Fragmenting Ores",
+  "icon": "oritech:platinum_clump",
+  "category": "oritech:getting_started",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A $(l:oritech:processing/fragment_forge)fragment forge$() can improve the yield of ores. When you process ores in a fragment forge, they get broken up into clumps and small clumps.$(br2)9 small clumps can be crafted into a clump, and clumps can be processed in a $(l:oritech:processing/centrifuge)centrifuge$() to turn them into dusts and small dusts which can be smelted in a furnace."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "You can put raw ores into a fragment forge, but for some ores you will get better results if you mine them with a silk touch pickaxe and put the ore blocks into the forge.$(br2)Both the fragment forge and the centrifuge can also produce secondary ores. For example, processing $(l:oritech:resources/nickel)nickel$() will give you nickel and can also give you some $(l:oritech:resources/platinum)platinum$()."
+    }
+  ]
+}

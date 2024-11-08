@@ -78,6 +78,9 @@ dependencies {
 
     // EMI
     modRuntimeOnly "dev.emi:emi-neoforge:1.1.12+1.21"
+
+    // patchouli
+    modImplementation "vazkii.patchouli:Patchouli:1.21-87-NEOFORGE"
 }
 
 processResources {
