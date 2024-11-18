@@ -512,6 +512,9 @@
   "item.oritech.jetpack_elytra": "Elytra potenciada",
   "item.oritech.jetpack_exo_elytra": "Elytra exo potenciada",
   "item.oritech.oritech_guide": "Manual de Oritech",
+  "fluid.oritech.still_fuel": "Turbofuel",
+  "fluid.oritech.still_oil": "Oil",
+  "fluid.oritech.still_steam": "Vapor",
   "item.oritech.promethium_axe": [
     {
       "text": "Hacha de batalla de Prometheum",
